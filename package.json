@@ -4,15 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test:html",
-    "test:html": "globstar nu-html-checker *.html"
+	"test": "npm run test:html",
+	"test:html": "globstar nu-html-checker *.html"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "autoprefixer-cli": "^1.0.0",
     "browser-sync": "^2.26.5",
     "globstar": "^1.0.0",
+    "html-validator-cli": "^6.0.0",
     "nu-html-checker": "^0.1.0"
   }
 }

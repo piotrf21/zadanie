@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-	"test": "npm run test:html",
-	"test:html": "globstar nu-html-checker *.html"
+    "test": "npm run test:html",
+    "test:html": "globstar nu-html-checker miodzio.html"
   },
   "keywords": [],
   "author": "",
